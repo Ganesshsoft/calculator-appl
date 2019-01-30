@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+}
+.form-control:focus {
+  border-color: #ccc !important;
+  box-shadow: none;
+}
+/* input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+} */
+.clear-button {
+  margin: 0;
+  padding: 6px 7px 7px;
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+  border-style: solid;
+  border-width: 1px;
+}
+.react-numeric-input b {
+  display: none;
+}
+.react-numeric-input {
+  margin-top: 0;
+  color: #000 !important;
+}
+.carat-weight-input {
+  color: #000 !important;
+  font-size: 15px !important;
+}
+.css-1py3auy {
+  color: #000 !important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#input-area {
+  margin-top: 50px;
+}
+
+/*Cory added to make the options fit within the dropdown*/
+.css-u5onnz {
+  max-height: none !important;
+}
+
+.css-u5onnz li {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.form-legend {
+  border-style: none;
+  border-width: 0;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 0;
+  width: auto;
+  padding: 0 10px;
+  border: 1px solid #e0e0e0;
+}
+.form-control {
+  border-radius: 0;
+  box-shadow: none;
+  color: #000;
+  font-size: 15px;
+}
+.relToList {
+  display: flex;
+  font-size: 15px;
+}
+
+.relToListInput {
+  margin-top: 3px !important;
+  color: #000 !important;
+  padding-right: 7ex !important;
+}
+.disable {
+  background: #eee !important ;
+}
+.suffix {
+  border: 1px solid #ccc;
+  height: 42px;
+  position: relative;
+  top: 3px;
+  display: flex;
+  align-items: center;
+  border-left: 0px;
+  background: #fff;
+  left: -1px;
+  padding-right: 10px;
+}
+.form-fieldset {
+  border: 1px solid #e0e0e0;
+  padding: 60px 15px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+.show-code-field label {
+  /*padding-top: 15px;*/
+}
+input {
+  min-height: 42px;
+  border-radius: 0;
+  outline: none;
+  padding: 5px 12px;
+  line-height: 1.2rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #000000;
+  margin-top: 11px;
+}
+.form-control-label {
+  margin: 0 0 8px;
+  font-size: 15px;
+  color: #424242;
+  font-weight: 600;
+}
+.include-weight {
+  font-size: 14px;
+  font-weight: 400;
+}
+.weight-checkbox {
+  position: relative !important;
+  margin: 0 7px 0 0 !important;
+}
+
+#result-area {
+  font-family: "Open Sans", sans-serif;
+  min-height: 120px;
+  margin-top: 40px;
+}
+.App-Loader {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.reactive-form-control {
+  font-family: "Open Sans", sans-serif !important;
+}
+#ValueToCodeConvert {
+  margin: 0 7px 0 0;
+}
+.reactive-form-control h2 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.reactive-form-control button {
+  font-size: 14px;
+  color: #000;
+}
+.No-records {
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+.reactive-form-control span {
+  font-size: 14px;
+}
+.showCode {
+  border: 1px solid #ccc;
+  /*border-radius: 3px;*/
+  padding: 9px;
+  /*  width: 80%;*/
+  margin-top: 11px;
+  /*margin-bottom: 8px;*/
+}
+
+.conversion-label {
+  padding-left: 0px;
+  font-size: 14px;
+  font-weight: 500 !important;
+}
+
+.No-records {
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+.reactive-form-control span {
+  font-size: 14px;
+}
+
+.form-control {
+  max-width: 100%;
+}
+input[type="checkbox"] {
+  vertical-align: middle;
+}
+.inputSectionRow,
+.outputSectionRow {
+  display: flex;
+  justify-content: space-evenly;
+}
+.inputColumns {
+  width: 23%;
+}
+.outputColumns {
+  width: 23%;
+}
+
+@media only screen and (max-width: 991px) {
+  .form-fieldset {
+    padding: 33px 6px;
+  }
+}
+
+/* phone, Small Devices -xs devices*/
+
+@media only screen and (max-width: 767px) {
+  .conversion-label {
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .xs-device-set-margin {
+    margin-bottom: 20px;
+  }
+  .inputSectionRow,
+  .outputSectionRow {
+    display: block;
+  }
+  .inputColumns,
+  .outputColumns {
+    width: 100%;
+  }
+  .form-fieldset {
+    padding: 33px 20px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+}
